@@ -14,3 +14,7 @@ from Views
 where author_id = viewer_id
 order by id ASC
 
+#1683. Invalid Tweets
+select tweet_id
+from Tweets
+Where length(content)>15
